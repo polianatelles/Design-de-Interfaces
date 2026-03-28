@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Algoritmos Genéticos</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Algoritmos Genéticos</h1>
+            <p>
+                Algoritmos Genéticos são técnicas de busca e otimização inspiradas no processo de evolução natural das espécies. Criados por John Holland na década de 1970, esses algoritmos simulam conceitos da biologia evolutiva, como seleção natural, cruzamento e mutação, para resolver problemas computacionais complexos.
+            </p>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    Página inicial
+                </li>
+                <li class="destaque">
+                    O que são Algoritmos Genéticos
+                </li>
+                <li>
+                    Como Funcionam
+                </li>
+                <li>
+                    Aplicações
+                </li>
+                <li>
+                    Vantagens e Limitações
+                </li>
+                <li>
+                    Tabela de Conceitos
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h2>O que são Algoritmos Genéticos?</h2>
+            <p>
+                Algoritmos Genéticos (AGs) são métodos de otimização baseados na teoria da evolução de Charles Darwin. Eles trabalham com uma população de soluções candidatas, que evoluem ao longo de gerações até encontrar a melhor solução para um determinado problema.
+            </p>
+            <a href="https://www.yourgenome.org/wp-content/uploads/2023/10/310-shutterstock_621958646-1-1440x1018.jpg.webp">
+                <img src="img/cromossomo.png" alt="Ilustração de cromossomos" width="300" height="200">
+            </a>
+            <h2>Como Funcionam?</h2>
+            <p>
+                O processo começa com a criação de uma população inicial de soluções geradas aleatoriamente. Cada solução é chamada de indivíduo e é representada por uma sequência de dados, geralmente binária. A cada geração, os melhores indivíduos são selecionados para se reproduzir, gerando novos indivíduos por meio de cruzamento e mutação.
+            </p>
+            <p>As etapas principais de um Algoritmo Genético são:</p>
+            <ul>
+                <li>Inicialização da população</li>
+                <li>Avaliação de aptidão (fitness)</li>
+                <li>Seleção dos melhores indivíduos</li>
+                <li>Cruzamento (crossover)</li>
+                <li>Mutação</li>
+                <li>Nova geração</li>
+            </ul>
+            <img src="img/crossover.png" alt="Diagrama de crossover e mutação em Algoritmo Genético" width="400" height="200">
+            <h2>Aplicações</h2>
+            <p>
+                Os Algoritmos Genéticos são utilizados em diversas áreas da computação e ciência. Na inteligência artificial, são usados para treinar redes neurais e otimizar modelos. Na engenharia, auxiliam no design de estruturas e circuitos. Na medicina, ajudam na descoberta de medicamentos e análise genômica. Em jogos, são utilizados para criar personagens com comportamento adaptativo.
+            </p>
+            <h2>Vantagens e Limitações</h2>
+            <p>
+                Entre as vantagens, destaca-se a capacidade de encontrar boas soluções em problemas muito complexos onde métodos tradicionais falham. Porém, os Algoritmos Genéticos não garantem encontrar a solução perfeita, e podem ser lentos dependendo do tamanho da população e do número de gerações necessárias.
+            </p>
+            <h2>Tabela de Conceitos</h2>
+            <table>
+                <caption>Relação entre conceitos biológicos e computacionais nos Algoritmos Genéticos</caption>
+                <thead>
+                    <tr>
+                        <th>Conceito Biológico</th>
+                        <th>Conceito Computacional</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Indivíduo</td>
+                        <td>Solução candidata</td>
+                    </tr>
+                    <tr>
+                        <td>Cromossomo</td>
+                        <td>Representação da solução</td>
+                    </tr>
+                    <tr>
+                        <td>Gene</td>
+                        <td>Parâmetro da solução</td>
+                    </tr>
+                    <tr class="destaque">
+                        <td>Seleção natural</td>
+                        <td>Seleção dos melhores resultados</td>
+                    </tr>
+                    <tr>
+                        <td>Cruzamento</td>
+                        <td>Combinação de soluções</td>
+                    </tr>
+                    <tr>
+                        <td>Mutação</td>
+                        <td>Alteração aleatória de parâmetros</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total de conceitos</td>
+                        <td>6 pares mapeados</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <h2>Vídeo sobre Algoritmos Genéticos</h2>
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/XP2sFzp2Rig" 
+            title="What are Genetic Algorithms?" 
+            allowfullscreen></iframe>
+            <h2>Formulário de Contato</h2>
+            <form>
+                <fieldset>
+                    <legend>Dados:</legend>
+
+                    <label for="n1" class="destaque">Nome completo:</label>
+                    <input type="text" name="nome" id="n1"><br>
+
+                    <label for="e1" class="destaque">E-mail:</label>
+                    <input type="email" name="email" id="e1"><br>
+
+                    <label for="t1" class="destaque">Telefone:</label>
+                    <input type="tel" name="tel" id="t1"><br>
+
+                    <label for="d1" class="destaque">Data de nascimento:</label>
+                    <input type="date" name="data" id="d1"><br>
+
+                    <label for="area">Área de interesse:</label>
+                    <select name="area" id="area">
+                        <option>Inteligência Artificial</option>
+                        <option>Otimização</option>
+                        <option>Jogos</option>
+                        <option>Medicina</option>
+                    </select><br>
+
+                    <label>Nível de conhecimento:</label><br>
+                    <input type="radio" name="nivel" value="iniciante" id="ini">
+                    <label for="ini">Iniciante</label>
+                    <input type="radio" name="nivel" value="intermediario" id="int">
+                    <label for="int">Intermediário</label>
+                    <input type="radio" name="nivel" value="avancado" id="ava">
+                    <label for="ava">Avançado</label><br>
+
+                    <label for="msg">Mensagem:</label><br>
+                    <textarea name="comentario" cols="30" rows="5" id="msg"></textarea><br>
+
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p>Página desenvolvida por Poliana Lette Telles — Disciplina de Design de Interfaces — 2026</p>
+        </footer>
+    </body>
+
+</html>

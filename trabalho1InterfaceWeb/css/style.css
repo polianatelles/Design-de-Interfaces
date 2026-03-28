@@ -1,0 +1,15 @@
+h1, h2 {
+    color: #A0345A;
+}
+
+p, label, li, td, th, caption {
+    color: #0D2440;
+}
+
+.destaque {
+    color: #17a117;
+}
+
+tr.destaque td {
+    color: #17a117;
+}

@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Conheça o fascinante mundo dos besouros (ordem Coleoptera): morfologia, galeria de espécies, curiosidades e muito mais." />
+    <meta name="description" content="Conheça o fascinante mundo dos besouros (ordem Coleoptera): morfologia, galeria de espécies, curiosidades, classificação e importância ecológica desses insetos." />
     <meta name="author" content="Poliana Lette Telles" />
     <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://polianatelles.github.io/Design-de-Interfaces/trabalho-3-interface-web/" />
+    <link rel="icon" href="img/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="img/logo.png" />
     <meta property="og:title" content="O Mundo dos Besouros" />
     <meta property="og:description" content="Explore a ordem Coleoptera: mais de 400 mil espécies, morfologia, galeria e curiosidades sobre os besouros." />
     <meta property="og:image" content="img/hercules.jpg" />
@@ -14,16 +17,20 @@
     <meta name="twitter:title" content="O Mundo dos Besouros" />
     <meta name="twitter:description" content="Explore a ordem Coleoptera: morfologia, galeria e curiosidades sobre os besouros." />
     <meta name="twitter:image" content="img/hercules.jpg" />
-    <title>O Mundo dos Besouros</title>
+    <title>O Mundo dos Besouros | Ordem Coleoptera</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="img/logo.webp" fetchpriority="high" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@400;700&display=swap" /></noscript>
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body id="topo">
     <div class="topo-fixo">
       <header>
-        <img src="img/logo.png" alt="Logotipo: ilustração de um besouro" class="logo" width="72" height="72" fetchpriority="high" />
+        <img src="img/logo.webp" alt="Logotipo: ilustração de um besouro" class="logo" width="72" height="72" fetchpriority="high" />
         <div class="header-textos">
           <h1>O Mundo dos Besouros</h1>
           <p>Ordem Coleoptera</p>
@@ -80,11 +87,11 @@
 
           <div class="figuras-grid">
             <figure class="figura-card">
-              <img src="img/hercules.jpg" alt="Dynastes hercules, o besouro hércules, sobre um galho" width="600" height="400" loading="lazy" />
+              <img src="img/hercules.webp" srcset="img/hercules-sm.webp 600w, img/hercules.webp 612w" sizes="(max-width: 700px) 100vw, 520px" alt="Dynastes hercules, o besouro hércules, sobre um galho" width="600" height="400" />
               <figcaption><em>Dynastes hercules</em></figcaption>
             </figure>
             <figure class="figura-card">
-              <img src="img/joia.jpeg" alt="Chrysochroa fulgidissima, besouro joia metálico verde e vermelho" width="600" height="400" loading="lazy" />
+              <img src="img/joia.webp" srcset="img/joia-sm.webp 600w, img/joia.webp 1600w" sizes="(max-width: 700px) 100vw, 520px" alt="Chrysochroa fulgidissima, besouro joia metálico verde e vermelho" width="600" height="400" />
               <figcaption><em>Chrysochroa fulgidissima</em></figcaption>
             </figure>
           </div>
@@ -162,27 +169,27 @@
 
           <div class="galeria-grid">
             <figure class="galeria-item">
-              <img src="img/calosoma-sycophanta.jpg" alt="Calosoma sycophanta, besouro predador com élitros metálicos" width="400" height="300" loading="lazy" />
+              <img src="img/calosoma-sycophanta.webp" srcset="img/calosoma-sycophanta-sm.webp 600w, img/calosoma-sycophanta.webp 1600w" sizes="(max-width: 700px) 100vw, 350px" alt="Calosoma sycophanta, besouro predador com élitros metálicos" width="400" height="300" loading="lazy" />
               <figcaption>Calosoma sycophanta</figcaption>
             </figure>
             <figure class="galeria-item">
-              <img src="img/titanus-giganteus.png" alt="Titanus giganteus, um dos maiores besouros do mundo" width="400" height="300" loading="lazy" />
+              <img src="img/titanus-giganteus.webp" srcset="img/titanus-giganteus-sm.webp 600w, img/titanus-giganteus.webp 865w" sizes="(max-width: 700px) 100vw, 350px" alt="Titanus giganteus, um dos maiores besouros do mundo" width="400" height="300" loading="lazy" />
               <figcaption>Titanus giganteus</figcaption>
             </figure>
             <figure class="galeria-item">
-              <img src="img/joaninha.jpg" alt="Coccinella septempunctata, joaninha com sete pontos vermelha" width="400" height="300" loading="lazy" />
+              <img src="img/joaninha.webp" srcset="img/joaninha-sm.webp 600w, img/joaninha.webp 1417w" sizes="(max-width: 700px) 100vw, 350px" alt="Coccinella septempunctata, joaninha com sete pontos vermelha" width="400" height="300" loading="lazy" />
               <figcaption>Coccinella septempunctata</figcaption>
             </figure>
             <figure class="galeria-item">
-              <img src="img/goliathus-goliatus.JPG" alt="Goliathus goliatus, um dos besouros mais pesados do mundo" width="400" height="300" loading="lazy" />
+              <img src="img/goliathus-goliatus.webp" srcset="img/goliathus-goliatus-sm.webp 600w, img/goliathus-goliatus.webp 960w" sizes="(max-width: 700px) 100vw, 350px" alt="Goliathus goliatus, um dos besouros mais pesados do mundo" width="400" height="300" loading="lazy" />
               <figcaption>Goliathus goliatus</figcaption>
             </figure>
             <figure class="galeria-item">
-              <img src="img/lucanus-cervus.jpg" alt="Lucanus cervus, besouro veado macho com mandíbulas grandes" width="400" height="300" loading="lazy" />
+              <img src="img/lucanus-cervus.webp" alt="Lucanus cervus, besouro veado macho com mandíbulas grandes" width="400" height="300" loading="lazy" />
               <figcaption>Lucanus cervus</figcaption>
             </figure>
             <figure class="galeria-item">
-              <img src="img/trachelophorus-giraffa.jpg" alt="Trachelophorus giraffa, besouro girafa com pescoço alongado" width="400" height="300" loading="lazy" />
+              <img src="img/trachelophorus-giraffa.webp" srcset="img/trachelophorus-giraffa-sm.webp 600w, img/trachelophorus-giraffa.webp 1600w" sizes="(max-width: 700px) 100vw, 350px" alt="Trachelophorus giraffa, besouro girafa com pescoço alongado" width="400" height="300" loading="lazy" />
               <figcaption>Trachelophorus giraffa</figcaption>
             </figure>
           </div>
@@ -326,7 +333,9 @@
 
             <figure class="avistamento-figura">
               <img
-                src="img/calosoma-sycophanta.jpg"
+                src="img/calosoma-sycophanta.webp"
+                srcset="img/calosoma-sycophanta-sm.webp 600w, img/calosoma-sycophanta.webp 1600w"
+                sizes="(max-width: 700px) 100vw, 500px"
                 alt="Calosoma sycophanta em ambiente natural, besouro predador com élitros metálicos esverdeados"
                 width="800"
                 height="600"
@@ -432,22 +441,22 @@
         <div class="painel-wrapper">
           <div class="painel-grid">
             <div class="painel-item painel-foto-6">
-              <img src="img/besouro-6.jpeg" alt="Besouro de grande porte fotografado em vista vertical" width="1440" height="2081" loading="lazy" />
+              <img src="img/besouro-6.webp" srcset="img/besouro-6-sm.webp 600w, img/besouro-6.webp 1107w" sizes="(max-width: 700px) 100vw, 50vw" alt="Besouro de grande porte fotografado em vista vertical" width="1440" height="2081" loading="lazy" />
             </div>
             <div class="painel-item painel-foto-1">
-              <img src="img/besouro-1.jpeg" alt="Besouro pousado sobre uma superfície, vista aproximada" width="1600" height="1066" loading="lazy" />
+              <img src="img/besouro-1.webp" srcset="img/besouro-1-sm.webp 600w, img/besouro-1.webp 1600w" sizes="(max-width: 700px) 100vw, 50vw" alt="Besouro pousado sobre uma superfície, vista aproximada" width="1600" height="1066" loading="lazy" />
             </div>
             <div class="painel-item painel-foto-2">
-              <img src="img/besouro-2.jpeg" alt="Besouro com élitros coloridos em ambiente natural" width="1600" height="1066" loading="lazy" />
+              <img src="img/besouro-2.webp" srcset="img/besouro-2-sm.webp 600w, img/besouro-2.webp 1600w" sizes="(max-width: 700px) 100vw, 50vw" alt="Besouro com élitros coloridos em ambiente natural" width="1600" height="1066" loading="lazy" />
             </div>
             <div class="painel-item painel-foto-4">
-              <img src="img/besouro-4.jpeg" alt="Besouro visto de cima em close vertical" width="600" height="900" loading="lazy" />
+              <img src="img/besouro-4.webp" alt="Besouro visto de cima em close vertical" width="600" height="900" loading="lazy" />
             </div>
             <div class="painel-item painel-foto-3">
-              <img src="img/besouro-3.jpeg" alt="Besouro sobre uma folha verde" width="1200" height="800" loading="lazy" />
+              <img src="img/besouro-3.webp" srcset="img/besouro-3-sm.webp 600w, img/besouro-3.webp 1200w" sizes="(max-width: 700px) 100vw, 50vw" alt="Besouro sobre uma folha verde" width="1200" height="800" loading="lazy" />
             </div>
             <div class="painel-item painel-foto-5">
-              <img src="img/besouro-5.jpeg" alt="Besouro de corpo alongado em vista frontal" width="466" height="612" loading="lazy" />
+              <img src="img/besouro-5.webp" alt="Besouro de corpo alongado em vista frontal" width="466" height="612" loading="lazy" />
             </div>
           </div>
         </div>

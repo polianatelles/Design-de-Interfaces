@@ -1,0 +1,20 @@
+:root {
+    --cor-fundo:        #0f1a0e;
+    --cor-fundo-card:   #1e2e1c;
+    --cor-fundo-header: #0a120a;
+    --cor-fundo-nav:    #0d170c;
+    --cor-fundo-hero:   #162014;
+    --cor-borda:        #5a9e3a;
+    --cor-borda-suave:  #2a3a28;
+    --cor-borda-card:   #2e4a2c;
+    --cor-texto:        #d4e8cc;
+    --cor-texto-suave:  #9ab88a;
+    --cor-titulo:       #f0f5ee;
+    --cor-destaque:     #7ec85a;
+    --cor-acento:       #c8a53a;
+    --cor-fundo-escuro: #080f08;
+    --fonte-serif:      'Playfair Display', serif;
+    --fonte-sans:       'Lato', sans-serif;
+    --radius:           8px;
+    --max-largura:      1100px;
+}

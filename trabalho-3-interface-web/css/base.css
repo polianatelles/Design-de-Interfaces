@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    text-size-adjust: 100%;
+    font-size: clamp(15px, 0.5vw + 0.85rem, 20px);
+}
+
+body {
+    min-width: 375px;
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-sans);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.7;
+}
+
+section {
+    scroll-margin-top: 8rem;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    overflow-wrap: break-word;
+}
+
+table {
+    width: 100%;
+    margin: 1.25rem 0;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+}
+
+table caption {
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--cor-texto-suave);
+    text-align: left;
+    font-style: italic;
+}
+
+th {
+    padding: 0.625rem 0.9375rem;
+    border: 1px solid var(--cor-borda-card);
+    background-color: var(--cor-fundo-card);
+    color: var(--cor-destaque);
+    text-align: left;
+}
+
+td {
+    padding: 0.625rem 0.9375rem;
+    border: 1px solid var(--cor-borda-suave);
+    color: var(--cor-texto);
+}
+
+tr:nth-child(even) td {
+    background-color: var(--cor-fundo-hero);
+}
+
+ul {
+    padding-left: 1.2rem;
+}
